@@ -1,0 +1,46 @@
+* {
+  margin: 0em;
+  padding: 0em;
+}
+body {
+  font-family: sans-serif;
+  font-size: 20px;
+  width: 640px;
+  margin: 10px auto;
+}
+
+.media-container{
+  border: 2px solid rgba(128, 128, 128, 0.3);
+  border-radius: 0.5em;
+  overflow: hidden;
+}
+
+.media-content{
+  display: flex;
+  column-gap: 1.5em;
+  margin: 1em;
+}
+.profile-photo{
+  width: 6em;
+  height: 6em;
+  overflow: hidden;
+  border-radius: 50%;
+}
+img{
+  width: 6em;
+}
+.tweet-block{
+  width: 20em;
+  line-height: 1.6em;
+  font-weight: 500;
+  font-size: 22px;
+}
+.tweet-block > :nth-child(n){
+  margin-bottom: 1em;
+}
+.media-footer{
+  padding: 1em;
+  background-color: rgba(128, 128, 128,0.1);
+  color: rgba(128, 128, 128);
+  font-weight: 100;
+}
